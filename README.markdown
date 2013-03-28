@@ -1,4 +1,4 @@
-# Swiss-Sys Swiss System Tournament Helper
+# STEM Swiss System Tournament Helper
 
 ## Planned Support
 
