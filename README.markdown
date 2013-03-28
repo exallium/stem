@@ -39,8 +39,12 @@ implemented if there is desire for one.
     * FK to Game
     * FK to User 1
     * FK to User 2
-    * Result
+    * User 1 Wins
+    * User 2 Wins
+    * Draws
     * Round Number
+    * User 1 Dropped
+    * User 2 Dropped
 
 ## Views
 
