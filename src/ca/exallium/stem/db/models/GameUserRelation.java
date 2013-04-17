@@ -9,7 +9,7 @@ import ca.exallium.stem.db.fields.IntegerField;
  * Time: 1:56 PM
  * To change this template use File | Settings | File Templates.
  */
-public class GameUserRelation {
+public class GameUserRelation extends BaseAndroidModel {
 
     public static String TAG = "db.models.GameUserRelation";
 
