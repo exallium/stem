@@ -37,4 +37,5 @@ public abstract class DatabaseField<T> {
     }
 
     public abstract String toDB();
+    public abstract String columnType();
 }

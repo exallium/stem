@@ -8,4 +8,9 @@ public class StringField extends DatabaseField<String> {
     public String toDB() {
         return String.format("\"%s\"", getData().replace("\"", "'"));
     }
+
+    @Override
+    public String columnType() {
+        return "VARCHAR";
+    }
 }

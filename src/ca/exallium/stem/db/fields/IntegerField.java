@@ -8,4 +8,9 @@ public class IntegerField extends DatabaseField<Integer> {
     public String toDB() {
         return Integer.toString(getData());
     }
+
+    @Override
+    public String columnType() {
+        return "INTEGER";
+    }
 }

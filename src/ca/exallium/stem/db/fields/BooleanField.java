@@ -12,4 +12,9 @@ public class BooleanField extends DatabaseField<Boolean> {
     public String toDB() {
         return getData() ? "1" : "0";
     }
+
+    @Override
+    public String columnType() {
+        return "INTEGER";
+    }
 }

@@ -10,4 +10,9 @@ public class TimestampField extends DatabaseField<Timestamp>{
     public String toDB() {
         return Long.toString(getData().getTime());
     }
+
+    @Override
+    public String columnType() {
+        return "VARCHAR";
+    }
 }
