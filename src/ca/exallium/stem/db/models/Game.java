@@ -9,6 +9,8 @@ import ca.exallium.stem.db.fields.TimestampField;
  */
 public class Game extends BaseAndroidModel {
 
+    public static String TAG = "db.models.Game";
+
     // Game title
     private StringField title = new StringField();
 

@@ -8,6 +8,8 @@ import ca.exallium.stem.db.fields.IntegerField;
  */
 public class Pairing extends BaseAndroidModel {
 
+    public static String TAG = "db.models.Pairing";
+
     private IntegerField gameId = new IntegerField();
     private IntegerField user1Id = new IntegerField();
     private IntegerField user2Id = new IntegerField();

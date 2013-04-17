@@ -19,6 +19,7 @@ import java.util.List;
  */
 public class Model {
     private static Driver driver;
+    public static String TAG = "db.models.Model";
 
     private boolean is_new = true;
 

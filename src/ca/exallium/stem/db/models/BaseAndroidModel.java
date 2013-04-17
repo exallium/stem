@@ -8,6 +8,8 @@ import ca.exallium.stem.db.fields.IntegerField;
  */
 public class BaseAndroidModel extends Model {
 
+    public static String TAG = "db.models.BaseAndroidModel";
+
     protected IntegerField _id = new IntegerField();
 
 }

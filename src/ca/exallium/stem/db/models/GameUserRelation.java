@@ -11,6 +11,8 @@ import ca.exallium.stem.db.fields.IntegerField;
  */
 public class GameUserRelation {
 
+    public static String TAG = "db.models.GameUserRelation";
+
     // Game ID
     private IntegerField gameId = new IntegerField();
 

@@ -8,6 +8,9 @@ package ca.exallium.stem.db.fields;
  * To change this template use File | Settings | File Templates.
  */
 public class BooleanField extends DatabaseField<Boolean> {
+
+    public static String TAG = "db.fields.BooleanField";
+
     @Override
     public String toDB() {
         return getData() ? "1" : "0";

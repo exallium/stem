@@ -10,6 +10,8 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class Driver extends SQLiteOpenHelper {
 
+    public static String TAG = "db.Driver";
+
     public Driver(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }

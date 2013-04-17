@@ -7,6 +7,8 @@ import ca.exallium.stem.db.fields.StringField;
  */
 public class User extends BaseAndroidModel {
 
+    public static String TAG = "db.models.User";
+
     // The user's name
     private StringField name = new StringField();
 

@@ -6,6 +6,8 @@ package ca.exallium.stem.db.fields;
  */
 public abstract class DatabaseField<T> {
 
+    public static String TAG = "db.fields.DatabaseField";
+
     private boolean primary = false;
     private T data;
 
